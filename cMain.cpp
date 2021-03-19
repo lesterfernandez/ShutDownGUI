@@ -233,7 +233,7 @@ void cMain::onTimerStart(wxTimerEvent &evt) {
 	if (counting) {
 
 
-		if (countingNum <= 0) {
+		if (countingNum <= 1) {
 			/* shutdown or restart */
 			if (shutDown) {
 				system("C:\\windows\\system32\\shutdown /s /t 0");
